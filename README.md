@@ -299,8 +299,8 @@ ngcloud/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/ngcloud.git
-cd ngcloud
+git clone https://github.com/Usman-Cys/NG-CLOUD.git
+cd NG-CLOUD
 ```
 
 ---
@@ -459,7 +459,7 @@ If you find this codebase or research design useful in your academic or professi
   author       = {Usman Fazal and Project Contributors},
   title        = {NGCloud: Zero-Knowledge Post-Quantum Cloud Storage with Client-Side Lattice Cryptography},
   year         = {2026},
-  howpublished = {\url{https://github.com/your-username/ngcloud}},
+  howpublished = {\url{https://github.com/Usman-Cys/NG-CLOUD}},
   note         = {Final Year Project in Computer Science}
 }
 ```
