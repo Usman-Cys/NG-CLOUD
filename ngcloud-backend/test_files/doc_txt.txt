@@ -1,0 +1,1 @@
+Hello, this is a secure text file containing functional test data for NGCloud zero-knowledge system.

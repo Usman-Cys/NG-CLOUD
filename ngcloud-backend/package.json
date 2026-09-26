@@ -1,0 +1,26 @@
+{
+  "name": "ngcloud-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src --exec node src/server.js",
+    "init-db": "node scripts/init-db.js",
+    "init-db-full": "node scripts/init-db.js",
+    "check": "node --check src/server.js && node --check src/app.js && node --check src/controllers/authController.js && node --check src/controllers/fileController.js && node --check src/controllers/adminController.js"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.2.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "minio": "^8.0.5",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

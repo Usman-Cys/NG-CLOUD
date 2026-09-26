@@ -1,0 +1,2 @@
+This is a secure post-quantum test file for NGCloud. It was encrypted with Ascon-128a and Kyber/ML-KEM-768.
+Verification successful.

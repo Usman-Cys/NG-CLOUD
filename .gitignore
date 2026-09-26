@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Rust build artifacts
+target/
+*/target/
+**/*.rs.bk
+
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+!.env.template
+ssl/*.key
+ssl/*.pem
+**/*.key
+**/*.pem
+
+# Production build outputs
+dist/
+*/dist/
+build/
+*/build/
+
+# Temporary and test files
+tmp/
+*.tmp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large test payloads (GitHub >50MB warning / >100MB block)
+ngcloud_99MB_test.txt
+*.tar.xz
+*.bin
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

@@ -1,0 +1,22 @@
+[package]
+name = "crypto-engine"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+js-sys = "0.3"
+getrandom = { version = "0.2", features = ["js"] }
+sha3 = "0.10"
+sha2 = "0.10"
+ascon = "0.4"
+ml-kem = "0.2"
+argon2 = "0.5"
+zeroize = { version = "1.7", features = ["derive"] }
+# Direct declarations for transitively used crates:
+base64ct = "1.8"
+rand_core = "0.6"
+hybrid-array = "0.2"

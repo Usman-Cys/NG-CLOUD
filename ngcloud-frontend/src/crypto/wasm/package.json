@@ -1,0 +1,15 @@
+{
+  "name": "crypto-engine",
+  "type": "module",
+  "version": "1.0.0",
+  "files": [
+    "crypto_engine_bg.wasm",
+    "crypto_engine.js",
+    "crypto_engine.d.ts"
+  ],
+  "main": "crypto_engine.js",
+  "types": "crypto_engine.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
